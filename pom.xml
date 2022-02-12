@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>2.37</version>
+        <version>4.0</version>
         <relativePath />
     </parent>
     <artifactId>commons-lang-api</artifactId>
@@ -13,6 +13,7 @@
     <properties>
         <commons-lang.version>2.6</commons-lang.version>
         <jenkins.version>2.7.3</jenkins.version>
+        <java.level>8</java.level>
     </properties>
     <name>Api Plugin for commons-lang:commons-lang</name>
     <description>To break dependencies on jars within core jenkins, so plugins and 'reuse' and core jenkins is more free to refactor as required.</description>
