@@ -12,7 +12,7 @@
     <packaging>hpi</packaging>
     <properties>
         <commons-lang.version>2.6</commons-lang.version>
-        <jenkins.version>2.7.3</jenkins.version>
+        <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
     <name>Api Plugin for commons-lang:commons-lang</name>
