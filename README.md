@@ -33,8 +33,8 @@ Replace the dependency to `org.apache.httpcomponents:httpclient` with the depend
     <dependencies>
       ...
       <dependency>
-        <groupId>org.jenkins-ci.plugins</groupId>
-        <artifactId>commons-lang-api-plugin</artifactId>
+        <groupId>io.jenkins.plugins</groupId>
+        <artifactId>commons-lang-api</artifactId>
         <version>2.6_0</version>
       </dependency>
       ...
