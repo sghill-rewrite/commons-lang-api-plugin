@@ -16,8 +16,9 @@
         <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
-    <name>Api Plugin for commons-lang:commons-lang</name>
-    <description>To break dependencies on jars within core jenkins, so plugins and 'reuse' and core jenkins is more free to refactor as required.</description>
+    <name>commons-lang v2.x Jenkins Api Plugin</name>
+    <description>Jenkins Api Plugin to provide commons-lang:commons-lang:${commons-lang.version}.
+        Will break usage upon jars being provided by core jenkins, allowing jenkins to upgrade as required.</description>
     <url>https://github.com/jenkinsci/commons-lang-api-plugin</url>
     <dependencyManagement>
         <dependencies>
