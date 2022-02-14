@@ -1,4 +1,8 @@
 <?jelly escape-by-default='true'?>
 <div>
-  Bundles Apache Commons Lang v2.x and allows it to be used by Jenkins plugins and breaks dependency upon it via jenkins core.
+  Jenkins Api Plugin that Bundles Apache Commons Lang v2.x.
+  <br/>
+  Usage will slim downstream plugin and break dependency jar being provided by core Jenkins.
+  <br/>
+  Provides commons-lang:commons-lang:${commons-lang.version}.
 </div>
