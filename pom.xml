@@ -19,6 +19,21 @@
     <name>Api Plugin for commons-lang:commons-lang</name>
     <description>To break dependencies on jars within core jenkins, so plugins and 'reuse' and core jenkins is more free to refactor as required.</description>
     <url>https://github.com/jenkinsci/commons-lang-api-plugin</url>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+               <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons-lang.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+    </dependencies>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -42,11 +57,4 @@
             <url>https://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
-    <dependencies>
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>${commons-lang.version}</version>
-        </dependency>
-    </dependencies>
 </project>
