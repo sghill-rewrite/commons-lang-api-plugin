@@ -11,7 +11,6 @@ This plugin provides [Commons Lang v2.x](https://commons.apache.org/proper/commo
 
 Version will be "&lt;commons-lang version&gt;_&lt;plugin version&gt;", so clear what upstream dependency it is offering and plugin can be patch by "plugin version" if required.
 
-
 ## How to introduce to your plugin
 
 ### Plugins directly depending on httpclient
